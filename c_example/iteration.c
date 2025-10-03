@@ -2,7 +2,7 @@
 ** EPITECH PROJECT, 2025
 ** thonny
 ** File description:
-** my_strlen
+** iteration
 */
 
 void my_putnbr(int nb);

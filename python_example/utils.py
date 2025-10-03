@@ -10,3 +10,6 @@ def my_putstr(str):
 
 def my_putnbr(n):
     print(n)
+
+def my_putchar(c):
+    print(c, end='')
