@@ -2,16 +2,20 @@
 
 Thonny is a beginner-friendly Python IDE. Follow these steps to install Thonny on Ubuntu.
 
-## Prerequisites
-
-- Ubuntu 18.04 or later
-- Python (usually pre-installed)
-
 ## Installation
 
 ```bash
-sudo apt update
-sudo apt install thonny
+# Install Python3 if not already installed
+sudo apt install python3
+
+# Create the virtual environement
+python3 -m venv .venv
+
+# Activate the virtual environment
+source .venv/bin/activate
+
+# Install Thonny
+pip install thonny
 ```
 
 ## After installation
@@ -24,10 +28,12 @@ thonny
 
 A window should open, click on "Let's go!" to start using Thonny.
 
-## Uninstallation
+## Leave the virtual environment
+
+To exit the virtual environment, simply run:
 
 ```bash
-sudo apt remove thonny
+deactivate
 ```
 
 ## More Information
