@@ -16,8 +16,8 @@ def my_strlen(str):
 
 def main():
     str = "Hello, World!\0"
-
     length = my_strlen(str)
+
     my_putnbr(length)
     return 0
 

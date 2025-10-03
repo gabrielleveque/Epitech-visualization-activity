@@ -20,7 +20,8 @@ int my_strlen(char const *str)
 int main(void)
 {
     char str[] = "Hello, World!";
+    int length = my_strlen(str);
 
-    my_putnbr(my_strlen(str));
+    my_putnbr(length);
     return (0);
 }
